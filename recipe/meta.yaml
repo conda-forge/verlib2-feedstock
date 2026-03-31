@@ -1,5 +1,5 @@
 {% set name = "verlib2" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/verlib2-{{ version }}.tar.gz
-  sha256: 2862f19528db400d130253a2b71c7c3616ee14e1d54bf6833bc0929d2cddd141
+  sha256: a0a6af9838d8d26c18225a30c8d57fb70714462e3cd29f2451e7982d5a51e21e
 
 build:
   noarch: python
